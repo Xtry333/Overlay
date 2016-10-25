@@ -41,9 +41,9 @@ namespace Overlay
             // 
             // ovInfoPanel
             // 
+            resources.ApplyResources(this.ovInfoPanel, "ovInfoPanel");
             this.ovInfoPanel.Controls.Add(this.dateTimePicker1);
             this.ovInfoPanel.Controls.Add(this.infoLabel);
-            resources.ApplyResources(this.ovInfoPanel, "ovInfoPanel");
             this.ovInfoPanel.Name = "ovInfoPanel";
             // 
             // dateTimePicker1
